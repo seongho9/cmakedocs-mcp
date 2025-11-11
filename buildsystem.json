@@ -1,0 +1,108 @@
+[
+    {
+        "index": "Introduction",
+        "layer": 0,
+        "children":[]
+    },
+    {
+        "index": "Binary Targets",
+        "layer": 0,
+        "children":[
+            {
+                "index": "Binary Executables",
+                "layer": 1,
+                "children": []
+            },
+            {
+                "index": "Binary Library Types",
+                "layer": 1,
+                "children": [
+                    {
+                        "index": "Normal Libraries",
+                        "layer": 2,
+                        "children": []
+                    },
+                    {
+                        "index": "Object Libraries",
+                        "layer": 2,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "index":"Build Specification and Usage Requirements",
+        "layer": 0,
+        "children":[
+            {
+                "index": "Target Properties",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Transitive Usage Requirements",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Compatible Interface Properties",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Property Origin Debugging",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Build Specification with Generator Expressions",
+                "layer": 1,
+                "children":[
+                    {
+                        "index": "Include Directories and Usage Requirements",
+                        "layer": 2,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "index": "Link Libraries and Generator Expressions",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Output Files",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Directory-Scoped Commands",
+                "layer": 1,
+                "children":[]
+            }
+        ]
+    },
+    {
+        "index": "Pseudo Targets",
+        "layer": 0,
+        "children":[
+            {
+                "index": "Imported Targets",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Alias Targets",
+                "layer": 1,
+                "children":[]
+            },
+            {
+                "index": "Interface Libraries",
+                "layer": 1,
+                "children":[]
+            }
+        ]
+   }
+    
+]
