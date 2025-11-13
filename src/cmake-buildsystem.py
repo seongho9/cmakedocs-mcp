@@ -14,12 +14,13 @@ mcp = FastMCP(name="CMakeBuildsystem")
 @mcp.tool
 def cmake_buildsystem_help() -> str:
     """help function for cmake_buildsystem()
+    A CMake buildsystem is a set of high-level logical targets (executables, libraries, or custom commands) with explicit dependencies that determine build order and regeneration rules. 
     """
     with open('buildsystem.json') as f:
         variable_list:str = f.read()
         
     help_dict = {
-        "description" : "This function search cmake variables. Such as, CMAKE_CXX_STANDARD, CMAKE_INCLUDE_PATH",
+        "description" : "This function search cmake buildsystem documentation. about cmake build concept",
         "command list" : variable_list
     }
     

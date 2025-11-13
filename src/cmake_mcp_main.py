@@ -31,4 +31,4 @@ async def setup_server():
 if __name__ == "__main__":
     # Run setup and then start the server
     asyncio.run(setup_server())
-    mcp.run(transport="http", host="127.0.0.1", port=18080)
+    mcp.run(transport="http", host="0.0.0.0", port=18080)
